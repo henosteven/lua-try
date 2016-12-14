@@ -57,3 +57,9 @@ end
 
 _, second = returntwo() -- 有没有发现这里的写法跟go语言非常的相似
 print(second)
+
+
+version1 = function() return '1.0.0' end -- 其实这才是lua函数的真实面目 跟 a = {} 没啥本质区别
+function version2() return '1.0.0' end -- 这个只是函数语法糖衣，但是很适合C语言类开发人员习惯
+print(version1()) -- 1.0.0
+print(version2()) -- 1.0.0

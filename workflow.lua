@@ -1,3 +1,9 @@
+print( 1 and "ok" or "no") -- ok
+print( nil and "ok" or "no") -- no
+print( 1 and false or "other") -- other
+-- 需要注意 a and b or c 在 b c 为真的情况下  =  a ? b : c, 否则会有一点问题，要谨慎
+
+
 a = "2"
 
 if tonumber(a) == 2 then 
