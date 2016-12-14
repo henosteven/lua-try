@@ -9,7 +9,8 @@ function iter(t)
 end
 
 t = {1, 2, 3, 4}
-itertool = iter(t)
-for i in itertool do
+for i in iter(t) do -- for exp 只会运行一次
     print(i)
 end
+
+
