@@ -1,6 +1,6 @@
 a = "one string"
 a = string.gsub(a, "one", "another")
-print(a)
+print(a) -- another string
 
 --这里增加（049） 增加0主要是\ddd 可以跟后面的23区分开
 print("\97lo\10\04923") 
